@@ -36,6 +36,6 @@ function daysUntilDeadline(endDate) {
     return daysDifference;
 }
 
-let endDate = '2025-04-16';
+let endDate = '2027-04-16';
 let daysUntilEndDate = daysUntilDeadline(endDate);
 console.log(`The number of days from today to ${endDate} is: ${daysUntilEndDate}`);
